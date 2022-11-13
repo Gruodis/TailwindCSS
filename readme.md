@@ -3,8 +3,9 @@
 <img alt="TailwindCSS" width="150" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg">
 </p>
 
-<h1 align="center">TailwindCSS & PostCSS/Sass</h1>
-
+<br/>
+<h1 align="center">Vite & TailwindCSS with PostCSS/Sass</h1>
+<br/>
 ## To use SASS & Nesting in project
 
 #### 1 - install sass
