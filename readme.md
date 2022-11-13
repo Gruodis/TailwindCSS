@@ -1,4 +1,4 @@
-<p align="center"><img alt="Tailwind." src="https://tailwindcss.com/_next/static/media/tailwindcss-logotype.ed60a6f85c663923c4d6ee9d85f359cd.svg"></p>
+<p align="center"><img alt="Tailwind." src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></p>
 
 <h1 align="center">TailwindCSS & PostCSS/Saas</h1>
 
