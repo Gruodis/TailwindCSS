@@ -2,44 +2,46 @@
 
 <h1 align="center">TailwindCSS & PostCSS/Saas</h1>
 
-### To use .scss instead of .css in project install 
+## To use SAAS in project install 
+  - ### 1
+  ```bash
+  npm install -D sass
+  ```
+  - ### 2
 
-```bash
-npm install -D sass
-```
-### Nesting with TailwindCSS default plugin
-It’s included directly in the tailwindcss package itself, so to use it all you need to do is add it to your PostCSS configuration, somewhere before Tailwind:
+  ### Nesting with TailwindCSS default plugin
+  It’s included directly in the tailwindcss package itself, so to use it all you need to do is add it to your PostCSS configuration, somewhere before Tailwind:
 
-```js
-// postcss.config.js
-module.exports = {
-  plugins: {
-    'postcss-import': {},
-    'tailwindcss/nesting': {},
-    tailwindcss: {},
-    autoprefixer: {},
+  ```js
+  // postcss.config.js
+  module.exports = {
+    plugins: {
+      'postcss-import': {},
+      'tailwindcss/nesting': {},
+      tailwindcss: {},
+      autoprefixer: {},
+    }
   }
-}
-```
-### Nesting with "postcss-nesting"
-If you’d rather use postcss-nesting (which is based on the work-in-progress CSS Nesting specification), first install the plugin:
+  ```
+  ### Nesting with "postcss-nesting"
+  If you’d rather use postcss-nesting (which is based on the work-in-progress CSS Nesting specification), first install the plugin:
 
-```bash
-npm install -D postcss-nesting
-```
-Then pass the plugin itself as an argument to tailwindcss/nesting in your PostCSS configuration:
+  ```bash
+  npm install -D postcss-nesting
+  ```
+  Then pass the plugin itself as an argument to tailwindcss/nesting in your PostCSS configuration:
 
-```js
-// postcss.config.js
-module.exports = {
-  plugins: {
-    'postcss-import': {},
-    'tailwindcss/nesting': 'postcss-nesting',
-    tailwindcss: {},
-    autoprefixer: {},
+  ```js
+  // postcss.config.js
+  module.exports = {
+    plugins: {
+      'postcss-import': {},
+      'tailwindcss/nesting': 'postcss-nesting',
+      tailwindcss: {},
+      autoprefixer: {},
+    }
   }
-}
-```
+  ```
 
 
 // create project
