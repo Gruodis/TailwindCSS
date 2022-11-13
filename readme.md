@@ -92,19 +92,25 @@ npm install -D sass
 <br/>
 <br/>
 
-### create project
-1 - ``npm init vite@latest myAppName``
+### Vite2 config
+1 - Install
 
-#### go to project dir
-2 - ``cd .\myAppName\``
+``npm init vite@latest myAppName``
 
-#### install additional modules
-3 - ```npm install -D tailwindcss postcss autoprefixer```
+2 - Go to project dir
 
-#### create tailwind.config.js & postcss.config.js
-4 - ``npx tailwindcss init -p``
+``cd .\myAppName\``
 
-#### move project files to src diretory then edit tailwind.config.js
+
+3 - Install additional modules
+
+```npm install -D tailwindcss postcss autoprefixer```
+
+4 - create tailwind.config.js & postcss.config.js
+
+``npx tailwindcss init -p``
+
+5 - Move project files to **_/src_** diretory then edit **_tailwind.config.js_**
 
 ```js
 module.exports = {
@@ -117,7 +123,7 @@ plugins: [],
 }
 ```
 
-#### then create vite.config.js and add:
+6 - Then create **_vite.config.js_** and add:
 ```js
 export default {
 root: 'src',
