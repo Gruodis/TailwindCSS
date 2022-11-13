@@ -11,35 +11,41 @@
 <br/>
 
 ## Install Vite (v.3.2.3)
-You can find latest guide here: https://vitejs.dev/guide/ or follow steps below:
+You can install Vite first latest guide [here](https://vitejs.dev/guide/) or install Vite&TailwindCSS guide [here](https://tailwindcss.com/docs/guides/vite#react), or follow steps below:
 
 ```bash
 npm create vite@latest
 ```
-
-#### You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:
+<br/>
+<br/>
+#### You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vanilla JS project, run:
 
 ```bash
 # npm 6.x
-npm create vite@latest my-vue-app --template vue
+npm create vite@latest my-vue-app --template vanilla
 
 # npm 7+, extra double-dash is needed:
-npm create vite@latest my-vue-app -- --template vue
+npm create vite@latest my-vue-app -- --template vanilla
 
 # yarn
-yarn create vite my-vue-app --template vue
+yarn create vite my-vue-app --template vanilla
 
 # pnpm
-pnpm create vite my-vue-app --template vue
+pnpm create vite my-vue-app --template vanilla
 ```
+<br/>
+<br/>
 
 ## To use SASS & Nesting in project
 
 #### 1 - install sass
 
-  ```bash
-  npm install -D sass
-  ```
+```bash
+npm install -D sass
+```
+<br/>
+<br/>
+
 #### 2 - Nesting with TailwindCSS default plugin
 
   It’s included directly in the tailwindcss package itself, so to use it all you need to do is add it to your PostCSS configuration, somewhere before Tailwind:
@@ -55,6 +61,10 @@ pnpm create vite my-vue-app --template vue
     }
   }
   ```
+  
+<br/>
+<br/>
+
 #### 3 - Nesting with "postcss-nesting"
   If you’d rather use postcss-nesting (which is based on the work-in-progress CSS Nesting specification), first install the plugin:
 
@@ -75,21 +85,27 @@ pnpm create vite my-vue-app --template vue
   }
   ```
 
+<br/>
+<br/>
+<hr/>
+<br/>
+<br/>
 
-// create project
+### create project
 1 - npm init vite@latest myAppName
 
-// go to project dir
+#### go to project dir
 2 - cd .\myAppName\
 
-// istall additional modules
-3 - npm install -D tailwindcss postcss autoprefixer
+#### install additional modules
+3 - ``npm install -D tailwindcss postcss autoprefixer```
 
-// create tailwind.config.js & postcss.config.js
+#### create tailwind.config.js & postcss.config.js
 4 - npx tailwindcss init -p
 
-// move project files to src diretory then edit tailwind.config.js
+#### move project files to src diretory then edit tailwind.config.js
 
+```js
 module.exports = {
 
 content: ['./src/**/*.{html,js}'],
@@ -98,9 +114,10 @@ extend: {},
 },
 plugins: [],
 }
+```
 
-// then create vite.config.js and add:
-
+#### then create vite.config.js and add:
+```js
 export default {
 root: 'src',
 publicDir: 'public',
@@ -109,13 +126,18 @@ server: {
 open: true
 }
 }
+```
+<br/>
+<br/>
+<hr/>
+<br/>
+<br/>
 
-// extensions
-Tailwind CSS IntelliSense Plugin https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss  
- Tailwind Docs https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs
+### VSC extensions
+-  [Tailwind CSS IntelliSense Plugin](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) 
+-  [Tailwind Docs](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)
 
-// playground
+### TailwindCSS Playground
 
 https://play.tailwindcss.com/
 
-//END
