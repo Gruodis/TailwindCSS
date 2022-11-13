@@ -1,0 +1,49 @@
+<!-- partials/header.hbs -->
+<header class="header bg-blue-700">
+    <div class="container">
+        <div class="flex items-center justify-between lg:justify-start">
+            <a class="header__logo" href="/index.html">
+                <img src="/assets/images/logo.svg" alt="Danės krantas">
+                <span>Danės<br>Krantas</span>
+            </a>
+
+            <button id="toggle-menu" type="button" class="lg:hidden">
+                <svg class="stroke-current text-primary w-[26px] h-5">
+                    <use xlink:href="/assets/images/icons/icons.svg#burger"/>
+                </svg>
+
+                <svg class="fill-current text-white w-5 h-5">
+                    <use xlink:href="/assets/images/icons/icons.svg#close"/>
+                </svg>
+            </button>
+
+            <div id="header-menu" class="lg:space-x-10">
+                <ul class="header__menu lg:space-x-10">
+                    <li>
+                        <a href="/index.html#apie">Apie mus</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#privalumai">Privalumai</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#vizualizacijos">Vizualizacijos</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#parama">Parama</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#vystytojas">Vystytojas</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#vieta">Vieta</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#naujienos">Naujienos</a>
+                    </li>
+                </ul>
+
+                <a class="btn" href="/index.html#kontaktai">Susisiekite</a>
+            </div>
+        </div>
+    </div>
+</header>
