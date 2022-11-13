@@ -2,16 +2,15 @@
 
 <h1 align="center">TailwindCSS & PostCSS/Sass</h1>
 
-# To use SASS in project
+## To use SASS & Nesting in project
 
-  - ### 1 install sass
+#### 1 - install sass
 
   ```bash
   npm install -D sass
   ```
-  - ### 2 install and configure
+#### 2 - Nesting with TailwindCSS default plugin
 
-  ### Nesting with TailwindCSS default plugin
   It’s included directly in the tailwindcss package itself, so to use it all you need to do is add it to your PostCSS configuration, somewhere before Tailwind:
 
   ```js
@@ -25,7 +24,7 @@
     }
   }
   ```
-  ### Nesting with "postcss-nesting"
+#### 3 - Nesting with "postcss-nesting"
   If you’d rather use postcss-nesting (which is based on the work-in-progress CSS Nesting specification), first install the plugin:
 
   ```bash
