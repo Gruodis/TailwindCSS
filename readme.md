@@ -93,16 +93,16 @@ npm install -D sass
 <br/>
 
 ### create project
-1 - npm init vite@latest myAppName
+1 - ``npm init vite@latest myAppName``
 
 #### go to project dir
-2 - cd .\myAppName\
+2 - ``cd .\myAppName\``
 
 #### install additional modules
-3 - ``npm install -D tailwindcss postcss autoprefixer```
+3 - ```npm install -D tailwindcss postcss autoprefixer```
 
 #### create tailwind.config.js & postcss.config.js
-4 - npx tailwindcss init -p
+4 - ``npx tailwindcss init -p``
 
 #### move project files to src diretory then edit tailwind.config.js
 
