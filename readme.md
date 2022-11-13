@@ -4,8 +4,11 @@
 </p>
 
 <br/>
+
 <h1 align="center">Vite & TailwindCSS with PostCSS/Sass</h1>
+
 <br/>
+
 ## To use SASS & Nesting in project
 
 #### 1 - install sass
