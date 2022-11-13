@@ -12,6 +12,18 @@ npm install -D sass
 npm install -D postcss-nesting
 ```
 
+```js
+// postcss.config.js
+module.exports = {
+  plugins: {
+    'postcss-import': {},
+    'tailwindcss/nesting': 'postcss-nesting',
+    tailwindcss: {},
+    autoprefixer: {},
+  }
+}
+```
+
 
 // create project
 1 - npm init vite@latest myAppName
