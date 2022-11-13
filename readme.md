@@ -1,13 +1,15 @@
 <p align="center"><img alt="TailwindCSS" width="150" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"></p>
 
-<h1 align="center">TailwindCSS & PostCSS/Saas</h1>
+<h1 align="center">TailwindCSS & PostCSS/Sass</h1>
 
-## To use SAAS in project install 
-  - ### 1
+# To use SASS in project
+
+  - ### 1 install sass
+
   ```bash
   npm install -D sass
   ```
-  - ### 2
+  - ### 2 install and configure
 
   ### Nesting with TailwindCSS default plugin
   It’s included directly in the tailwindcss package itself, so to use it all you need to do is add it to your PostCSS configuration, somewhere before Tailwind:
