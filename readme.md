@@ -18,6 +18,7 @@ npm create vite@latest
 ```
 <br/>
 <br/>
+
 #### You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vanilla JS project, run:
 
 ```bash
