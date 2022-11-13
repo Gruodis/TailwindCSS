@@ -9,7 +9,7 @@ npm install -D sass
 ```
 
 ```bash
-npm install -D postcss-import
+npm install -D postcss-nesting
 ```
 
 
