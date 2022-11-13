@@ -5,6 +5,10 @@
 
 
 ```bash
+npm install -D sass
+```
+
+```bash
 npm install -D postcss-import
 ```
 
