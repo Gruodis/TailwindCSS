@@ -17,6 +17,22 @@ You can find latest guide here: https://vitejs.dev/guide/ or follow steps below:
 npm create vite@latest
 ```
 
+#### You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:
+
+```bash
+# npm 6.x
+npm create vite@latest my-vue-app --template vue
+
+# npm 7+, extra double-dash is needed:
+npm create vite@latest my-vue-app -- --template vue
+
+# yarn
+yarn create vite my-vue-app --template vue
+
+# pnpm
+pnpm create vite my-vue-app --template vue
+```
+
 ## To use SASS & Nesting in project
 
 #### 1 - install sass
