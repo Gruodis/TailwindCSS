@@ -88,7 +88,21 @@ npm install -D sass
 
 <br/>
 <br/>
-<hr/>
+
+## Handlebars
+
+
+Show HTML tags with handlebars:
+
+```hbs
+{{{ this.MESSAGE_TITLE }}}
+
+// instead of
+
+{{ this.MESSAGE_TITLE }}
+```
+
+
 <br/>
 <br/>
 
