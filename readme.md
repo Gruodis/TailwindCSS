@@ -8,6 +8,8 @@
 <h1 align="center">Vite & TailwindCSS with PostCSS/Sass</h1>
 <br/>
 <br/>
+
+ESlint, Prettier and Vite [here](https://vueschool.io/articles/vuejs-tutorials/eslint-and-prettier-with-vite-and-vue-js-3/)
 <br/>
 
 ## Install Vite (v.3.2.3)
@@ -91,6 +93,7 @@ npm install -D sass
 
 ## Handlebars
 
+Process HTML files with Handlebars article [here](https://morioh.com/p/2d1b0dc08bb5)
 
 Show HTML tags with handlebars:
 
